@@ -1,0 +1,59 @@
+/*
+#F7C59F
+#2A32AB
+#767B91
+#C7CCDB
+#E1E5EE
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Mono&display=swap');
+
+body{
+    background-color: #C7CCDB;
+    height: 100vh;
+}
+h1{
+ font-family: 'Abril Fatface', cursive;
+ cursor: pointer;
+}
+
+h2{
+    cursor: pointer;
+}
+
+
+p, h2, li{
+    font-family: 'PT Mono', monospace;
+}
+
+.header{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo {
+    overflow: hidden;
+}
+
+#logo:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid black;
+}
+
+.line-down{
+
+    height: 100%;
+    border-left: 2px solid black;
+    margin-bottom: 20px;
+}
+.list-group-item{
+    background-color: #C7CCDB !important;
+}
